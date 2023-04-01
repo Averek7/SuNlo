@@ -1,0 +1,40 @@
+.container{
+    background-color: black;
+    color: white;
+    /* height: 13vh; */
+}
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 90%;
+    margin: 0 auto;
+    /* height: 10vph; */
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 2rem;
+    cursor: pointer;
+    padding:0 .5rem;
+    
+}
+.right-p{
+    padding:.4rem .4rem 0 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.right-p:hover{
+    background-color: dimgray;
+    /* padding: .2rem; */
+    border-radius: 0.2rem;
+    transition:ease-in 0.2s;
+}
+.logo{
+    font-size: 1.7rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 0px wheat;
+}

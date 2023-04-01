@@ -1,0 +1,19 @@
+.con{
+    background-color: black;
+    color: white;
+    width: 16%;
+    height: 100vh;
+    margin-top: 0;
+    padding: 2rem;
+}
+.con-p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem;
+    cursor: pointer;
+}
+.con-p:hover{
+    background-color: dimgray;
+    border-radius: 0.2rem;
+    transition:ease-in 0.2s;
+}
