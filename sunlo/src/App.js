@@ -1,11 +1,10 @@
-import './App.css';
-import LeftNav from './Components/LeftNav/LeftNav';
-import Navbar from './Components/Navbar/Navbar';
+import "./App.css";
+import Layout from "./Components/Layout";
+// import LeftNav from './Components/LeftNav/LeftNav';
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <LeftNav/>
+    <div>
+      <Layout>{/* <LeftNav/> */}</Layout>
     </div>
   );
 }
