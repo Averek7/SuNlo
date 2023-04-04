@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 // import Layout from "./Layout";
 import { FaHome } from "react-icons/fa";
-import { BiLibrary } from "react-icons/bi";
+import { BiBookAdd, BiLibrary } from "react-icons/bi";
 import { FcLike } from "react-icons/fc";
 import "./LeftNav.css";
 import Home from "../Home/Home";
-import Library from "../Library";
-import Liked from "../Liked";
+import Library from "../Library/Library";
+import Liked from "../Liked/Liked";
 
 const tabs = [
   {
@@ -16,6 +16,10 @@ const tabs = [
   {
     name: "Your Library",
     icon: <BiLibrary size={30} className="icons" />,
+  },
+  {
+    name: "Create Playlist",
+    icon: <BiBookAdd size={30} className="icons" />,
   },
   {
     name: "Liked Music",
@@ -41,13 +45,13 @@ function Dashboard({ code }) {
           ))}
           <div className="con4">
             <div className="ic2">
-              <h5>SUPPORT</h5>
+              <h6>SUPPORT</h6>
             </div>
             <div className="ic2">
-              <h5>FAQ</h5>
+              <h6>FAQ</h6>
             </div>
             <div className="ic2">
-              <h5>TERMS & CONDITIONS</h5>
+              <h6>TERMS & CONDITIONS</h6>
             </div>
           </div>
         </div>

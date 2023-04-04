@@ -1,0 +1,57 @@
+.display-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 25%,
+    rgb(1, 26, 171) 50%,
+    rgb(0, 114, 228) 100%
+  );
+  border-radius: 25px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.display-container .icons {
+  background-color: #004aad;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 25px;
+  width: 150px;
+  height: 150px;
+}
+
+.element {
+  margin: 25px;
+}
+
+.ico1 {
+  width: 150px;
+  margin: 50px auto;
+  height: 50px;
+}
+.ico2 {
+  /* display: block; */
+  /* margin: auto; */
+  width: 100px;
+  height: 200px;
+}
+
+.icons {
+  color: azure;
+}
+
+.description-container {
+  color: azure;
+  text-align: center;
+}
+
+.description-container p {
+  margin: 18px;
+}
+.description-container p span {
+  background-color: #004aad;
+  padding: 8px;
+  border-radius: 20px;
+}

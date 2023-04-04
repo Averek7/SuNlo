@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 import music from "../../Assests/music.jpg";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 const Card = () => {
   return (
     <div className="card-con">
