@@ -24,10 +24,10 @@ const Navbar = () => {
         </div>
         <div className="right">
           <div className="elem">
-            <input type="button" value="" name="search" className="search" />
+            <input type="text" value="" name="search" className="search_box" />
             <BsSearch />
           </div>
-          <div className="elem">
+          <div className="elem user">
             <BsFillPersonFill size={25} />
           </div>
         </div>

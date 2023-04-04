@@ -1,0 +1,38 @@
+.side-container {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.side-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.side-container::-webkit-scrollbar-thumb {
+  background: #004aad;
+}
+.side-container::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.music-container {
+  width: 100%;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 10px 3px 3px 15px;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
