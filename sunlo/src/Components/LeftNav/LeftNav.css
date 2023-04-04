@@ -1,8 +1,9 @@
-.main-container {
+.main_container {
   display: flex;
   flex-direction: row;
   background-color: black;
-  height: 90vh;
+  font-family: cursive;
+  font-size: 15px;
 }
 .con1 {
   background-color: black;
@@ -12,6 +13,7 @@
 .con2 {
   background-color: #1a1a1a;
   padding: 30px;
+  height: 85vh;
   border-radius: 20px;
   margin: 0 20px;
 }
@@ -19,11 +21,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.con4 {
-  position: absolute;
-  bottom: 0%;
 }
 
 h4 {

@@ -26,7 +26,7 @@ function Dashboard({ code }) {
   const [tab, setTab] = useState("Home");
 
   return (
-    <div className="main-container">
+    <div className="main_container">
       <div className="con1">
         <div className="con2">
           {tabs.map((item) => (

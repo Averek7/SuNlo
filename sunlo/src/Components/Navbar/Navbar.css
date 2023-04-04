@@ -1,8 +1,8 @@
-.container {
+.nav_container {
   background-color: black;
   color: white;
 }
-.Nav {
+.nav_elem {
   display: flex;
   flex-direction: row;
   align-items: center;

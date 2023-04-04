@@ -10,8 +10,8 @@ import { BsFillPersonFill, BsSearch } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="container">
-      <div className="Nav">
+    <div className="nav_container">
+      <div className="nav_elem">
         <div className="left">
           <img
             className="logo"
