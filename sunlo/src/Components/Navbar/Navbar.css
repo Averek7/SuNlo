@@ -25,13 +25,30 @@
   align-items: center;
   justify-content: center;
 }
-.search {
-  padding: 5px 50px;
+.search_box {
   margin: 0 5px;
+  color: black;
+  padding: 5px 20px;
   border-radius: 20px;
+  border: 4px solid #004aad;
+}
+.search_box:hover {
+  border-color: #055ccf;
+  transition: ease-in-out 0.2s;
 }
 
 li {
   list-style: none;
   margin: 5px;
+}
+
+.user {
+  padding: 5px;
+  border: 4px solid #004aad;
+  border-radius: 100%;
+}
+
+.user:hover {
+  background-color: #004aad;
+  color: #000;
 }

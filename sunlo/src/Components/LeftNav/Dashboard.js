@@ -4,7 +4,7 @@ import { FaHome } from "react-icons/fa";
 import { BiLibrary } from "react-icons/bi";
 import { FcLike } from "react-icons/fc";
 import "./LeftNav.css";
-import Home from "../Home";
+import Home from "../Home/Home";
 import Library from "../Library";
 import Liked from "../Liked";
 
