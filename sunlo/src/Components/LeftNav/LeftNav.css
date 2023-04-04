@@ -1,10 +1,12 @@
 .con{
-    background-color: black;
+    /* background-color: black; */
     color: white;
-    width: 16%;
+    /* width: 34%; */
     height: 100vh;
     margin-top: 0;
-    padding: 2rem;
+    padding:1rem;
+    /* position: fixed; */
+    background: linear-gradient(-45deg ,black, blue,black);
 }
 .con-p{
     font-size: 1.2rem;

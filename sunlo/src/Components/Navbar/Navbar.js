@@ -5,7 +5,7 @@ import { SiGnuprivacyguard } from 'react-icons/si';
 
 const Navbar = ()=>{
    return(
-    <div className='container'>
+    <div className='nav-container'>
         <div className='Nav'>
             <div className='left'>
                 <p className='logo'>SUN_LO</p>

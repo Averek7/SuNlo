@@ -1,12 +1,14 @@
 /* .App{
-  color: blue;
-  animation: App-logo-spin infinite 5s linear;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 100%;
+  height: 100%;
 } */
+
+.box{
+  display: flex;
+}
+.card-box-con{
+  padding: .5rem;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  gap: .5rem;
+}
