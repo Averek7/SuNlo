@@ -1,10 +1,12 @@
-import "./App.css";
-import Layout from "./Components/Layout";
-// import LeftNav from './Components/LeftNav/LeftNav';
+// import Layout from "./Components/Layout";
+import Navbar from "./Components/Navbar/Navbar";
+import Dashboard from "./Components/LeftNav/Dashboard";
+
 function App() {
   return (
     <div>
-      <Layout>{/* <LeftNav/> */}</Layout>
+      <Navbar />
+      <Dashboard />
     </div>
   );
 }

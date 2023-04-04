@@ -25,6 +25,11 @@
   align-items: center;
   justify-content: center;
 }
+.search {
+  padding: 5px 50px;
+  margin: 0 5px;
+  border-radius: 20px;
+}
 
 li {
   list-style: none;
