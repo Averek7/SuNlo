@@ -17,6 +17,9 @@
   margin: 0 20px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .con3 {
   display: flex;
@@ -24,9 +27,9 @@
   justify-content: left;
 }
 
-.con4 {
-  position: absolute;
-  bottom: 0%;
+.con4 .ic2 {
+  margin: 2px;
+  padding: 2px;
 }
 
 .con4 h5 {

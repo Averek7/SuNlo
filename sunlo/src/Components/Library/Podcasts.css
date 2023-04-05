@@ -1,0 +1,27 @@
+.podcast-container {
+  color: azure;
+}
+.desc-container {
+  text-align: center;
+  padding: 50px;
+}
+.desc-container h2 {
+  margin: 10px 0 5px 0;
+}
+.desc-container h6 {
+  margin: 5px;
+}
+.desc-container p {
+  margin: 20px;
+}
+.desc-container span {
+  background-color: #004aad;
+  padding: 8px;
+  border-radius: 20px;
+}
+.icons {
+}
+.ic-elem {
+  width: 50px;
+  height: 50px;
+}

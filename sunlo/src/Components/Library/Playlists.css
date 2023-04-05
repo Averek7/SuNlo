@@ -1,0 +1,22 @@
+.playlist-container {
+  display: flex;
+  color: azure;
+  padding: 2px;
+}
+
+.liked-container {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 25%,
+    rgb(1, 26, 171) 50%,
+    rgb(0, 114, 228) 100%
+  );
+  border-radius: 12px;
+  padding-right: 140px;
+  margin: 12px;
+}
+.elem-container {
+  margin-top: 75%;
+  margin-left: 12px;
+  width: 100%;
+}
