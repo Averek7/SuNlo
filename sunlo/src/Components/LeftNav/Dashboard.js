@@ -26,23 +26,25 @@ const tabs = [
     icon: <FcLike size={30} className="icons" />,
   },
 ];
-function Dashboard({ code }) {
+function Dashboard({ selecttab }) {
   const [tab, setTab] = useState("Home");
 
   return (
     <div className="main_container">
       <div className="con1">
         <div className="con2">
-          {tabs.map((item) => (
-            <div
-              className="con3"
-              onClick={() => setTab(item.name)}
-              style={item.name === tab ? { color: "#004AAD" } : null}
-            >
-              {item.icon}
-              <h4>{item.name}</h4>
-            </div>
-          ))}
+          <div className="con2-3">
+            {tabs.map((item) => (
+              <div
+                className="con3"
+                onClick={() => setTab(item.name)}
+                style={item.name === tab ? { color: "#004AAD" } : null}
+              >
+                {item.icon}
+                <h4>{item.name}</h4>
+              </div>
+            ))}
+          </div>
           <div className="con4">
             <div className="ic2">
               <h6>SUPPORT</h6>
