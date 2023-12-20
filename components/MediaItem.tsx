@@ -48,7 +48,7 @@ const MediaItem = ({ data, onClick }: MediaItemProps) => {
       >
         <Image
           fill
-          src={imageUrl || "/images/music-placeholder.png"}
+          src={imageUrl || "/public/images/liked.png"}
           alt="MediaItem"
           className="object-cover"
         />

@@ -4,6 +4,7 @@ import PageContent from "@/app/(site)/components/PageContent"
 import getSongs from '@/actions/getSongs'
 
 export const revalidate = 0
+
 export default async function Home() {
   const songs = await getSongs()
   return (
